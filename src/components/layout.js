@@ -11,8 +11,8 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div className="innerLayout" style={{marginTop: 125}}>
-      <main>{children}</main>
+    <div className="innerLayout">
+      {children}
     </div>
   )
 }

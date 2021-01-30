@@ -18,7 +18,7 @@ body{
 @media only screen and (max-width: 1264px) {
     .innerLayout{
         width: 100vw;
-        padding: 0 40px;
+        padding: 0 60px;
 
     }
 }
