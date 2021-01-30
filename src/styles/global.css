@@ -18,7 +18,8 @@ body{
 @media only screen and (max-width: 1264px) {
     .innerLayout{
         width: 100vw;
-        padding: 0 30px;
+        padding: 0 40px;
+
     }
 }
 
@@ -36,12 +37,23 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 
 .justify-space-between{
     justify-content: space-between;
 }
 .justify-center{
     justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: start;
 }
 
 
@@ -52,6 +64,14 @@ a:hover{
 
 .big-header{
     font-family: "Cheltenham Std Bold Cond It", serif;
-    font-size: 88px;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: -0.02em;
+}
 
+.clip-circle {
+    object-fit: cover;
+    width: 688px;
+    height: 688px;
+    border-radius: 50%;
 }
