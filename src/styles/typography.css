@@ -7,6 +7,10 @@
     src: url("../fonts/CheltenhamStdBoldCondIt.otf");
 }
 @font-face {
+    font-family: "Cheltenham Std Book";
+    src: url("../fonts/CheltenhamStdBook.otf");
+}
+@font-face {
     font-family: "HU Iceland";
     src: url("../fonts/HuIceland.otf");
 }
