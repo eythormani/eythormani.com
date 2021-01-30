@@ -6,6 +6,21 @@ body{
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.innerLayout{
+    width: 1224px;
+}
+@media only screen and (max-width: 1264px) {
+    .innerLayout{
+        width: 100vw;
+        padding: 0 30px;
+
+    }
 }
 
 a{

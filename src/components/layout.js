@@ -24,15 +24,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="innerLayout">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div style={{marginTop: 125}}>
         <main>{children}</main>
         <footer
           style={{
@@ -44,7 +38,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -8,11 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="yellow-header">
-      Velkomin!
-    </div>
-    <div className="big-header" style={{marginTop: 40}}>
-      Lorem ipsum
+    <div style={{marginBottom: 160}}>
+      <div className="yellow-header">
+        Velkomin!
+      </div>
+      <div className="big-header" style={{marginTop: 40}}>
+        Lorem ipsum
+      </div>
     </div>
   </Layout>
 )

@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="row justify-space-between" style={{padding: "56px 228px", fontFamily: "HU Iceland", fontWeight: 400}}>
+    <div className="row justify-space-between" style={{fontFamily: "HU Iceland", fontWeight: 400, marginTop: 56}}>
       <div>🌒Eyþór Máni</div>
       <div>
         Lestu <Link to="stefnur">stefnurnar mínar</Link>,{" "}
