@@ -1,0 +1,43 @@
+@import "./typography.css";
+
+body{
+    font-family: "Cheltenham Std", serif;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a{
+    color: #ffffff;
+    border-bottom: 1px solid #7E7E7E;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+a:hover{
+    color: #7E7E7E;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+
+
+.yellow-header{
+    color: #ffcc1a;
+    font-family: "HU Iceland", serif;
+}
+
+.big-header{
+    font-family: "Cheltenham Std Bold Cond It", serif;
+    font-size: 88px;
+
+}
