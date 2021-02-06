@@ -8,6 +8,8 @@ import SEO from "../../components/seo"
 import Tile from "../../components/tile"
 
 import placeholderImage from "../../images/placeholder.jpg"
+import menntunImage from "../../images/menntun.jpg"
+import innovationImage from "../../images/innovation.jpg"
 
 const PlanPage = () => (
   <Layout>
@@ -32,33 +34,44 @@ const PlanPage = () => (
     </div>
     <div className="tileContainer">
       <Tile
-        title="Margrét Einarsdóttir"
-        image="https://pbs.twimg.com/profile_images/917390241228615681/ZsZCUSE9.jpg"
+        title="Aðgengileg nýsköpun fyrir framtíðina"
+        image={innovationImage}
+        to="/stefnur/nyskopun"
+      />
+      <Tile
+        title="Landbúnaður sem virkar fyrir bændur"
+        image="https://images.pexels.com/photos/2659484/pexels-photo-2659484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/landbunadur"
+      />
+      <Tile
+        title="Jafnt aðgengi um allt land"
+        image="https://images.pexels.com/photos/318427/pexels-photo-318427.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+        to="/stefnur/sterkari-samfelog"
+      />
+      <Tile
+        title="Framúrskarandi menntun"
+        image={menntunImage}
         to="/stefnur/framurskarandi-menntun"
       />
       <Tile
-        title="Aðgengileg nýsköpun fyrir framtíðina"
-        image="https://www.visir.is/i/D5CC38AF5F127CF8323E8457B14CD2ED13856F354E743AB541041806ABBA8236_713x0.jpg"
+        title="Komum ungu fólki til áhrifa"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/ungt-folk"
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="https://www.dv.is/wp-content/uploads/2018/04/Spurning3-1-324x350.png"
-        to="/stefna1"
+        title="Jörðin okkar er að deyja"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/hamfarahlynun"
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="https://www.ruv.is/sites/default/files/fr_20190911_120409.jpg"
-        to="/stefna1"
+        title="Lýðræði í verki"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/lydraedi"
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="http://www.vb.is/media/cache/52/6f/526f3f76e573f6aeb3e8102583ca191e.jpg"
-        to="/stefna1"
-      />
-      <Tile
-        title="Framúrskarandi menntun"
-        image="https://pbs.twimg.com/profile_images/1182999037550698501/cTSxSB60_400x400.jpg"
-        to="/stefna1"
+        title="Annað"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/annad"
       />
     </div>
   </Layout>

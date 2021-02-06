@@ -61,6 +61,7 @@ a:hover{
 .yellow-header{
     color: #ffcc1a;
     font-family: "HU Iceland", serif;
+    border:none;
 }
 
 .big-header{
@@ -116,4 +117,16 @@ footer{
 .social-link svg:hover{
     cursor: pointer;
     fill: white;
+}
+.read-more-link{
+    font-family: "HU Iceland", serif;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    letter-spacing: -0.03em;
+}
+.yellow-header:hover{
+    color: #ffcc1a;
+    cursor:pointer;
+    border:none;
 }

@@ -6,6 +6,7 @@ const FrontImageSell = ({
   bigTitle,
   readMoreLink,
   imgSide,
+  policyLink
 }) => {
   return (
     <div className="row align-center" style={{ marginBottom: 83 }}>
@@ -23,13 +24,13 @@ const FrontImageSell = ({
           transform: `translateX(${imgSide === "left" ? "-60px" : ""})`,
         }}
       >
-        <div className="yellow-header" style={{ marginBottom: 32 }}>
+        <Link to={policyLink} className="yellow-header" style={{ marginBottom: 32 }}>
           {smallTitle}
-        </div>
+        </Link>
         <div className="big-header" style={{ marginBottom: 16 }}>
           {bigTitle}
         </div>
-        {readMoreLink && <Link to={readMoreLink}>Lesa meira</Link>}
+        {readMoreLink && <Link className="read-more-link" to={readMoreLink}>Lesa meira</Link>}
       </div>
       {imgSide === "right" && (
         <img
