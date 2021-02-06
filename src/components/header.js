@@ -10,18 +10,37 @@ const Header = ({ siteTitle }) => (
         className="row justify-space-between"
         style={{ fontFamily: "HU Iceland", fontWeight: 400, marginTop: 56 }}
       >
-        <Link className="row" to="/" style={{borderBottom: 'none'}}>
-          <img src={SiteIcon} alt="Main Icon" width={25} height={25} style={{marginRight: 10}} />
+        <Link
+          className="row"
+          to="/"
+          style={{ borderBottom: "none" }}
+          cover
+        >
+          <img
+            src={SiteIcon}
+            alt="Main Icon"
+            width={25}
+            height={25}
+            style={{ marginRight: 10 }}
+          />
           Eyþór Máni
         </Link>
         <div>
-          Lestu <Link to="stefnur">stefnurnar mínar</Link>,{" "}
-          <Link to="about">um mig</Link> eða{" "}
-          <Link to="contact">hafðu samband</Link>
+          Lestu{" "}
+          <Link to="/stefnur" paintDrip>
+            stefnurnar mínar
+          </Link>
+          ,{" "}
+          <Link to="/about" paintDrip>
+            um mig
+          </Link>{" "}
+          eða{" "}
+          <Link to="/contact" paintDrip>
+            hafðu samband
+          </Link>
         </div>
       </div>
     </header>
-
   </Layout>
 )
 

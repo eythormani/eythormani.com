@@ -32,7 +32,7 @@ const PlanPage = () => (
       <Tile
         title="Margrét Einarsdóttir"
         image="https://pbs.twimg.com/profile_images/917390241228615681/ZsZCUSE9.jpg"
-        to="/stefna1"
+        to="plan"
         fullWidth
       />
       <Tile

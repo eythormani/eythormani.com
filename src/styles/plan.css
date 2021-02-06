@@ -77,6 +77,10 @@
 	letter-spacing: -0.04em;
 	color:#888888;
 }
+.plan-menu{
+	position: sticky;
+	top: 50px;
+}
 .plan-menu-item{
 
 }
