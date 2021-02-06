@@ -75,3 +75,44 @@ a:hover{
     height: 688px;
     border-radius: 50%;
 }
+footer{
+    margin-bottom: 264px;
+}
+.footer{
+    font-family: "Cheltenham Std", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.01em;
+
+    color: #D7D7D7;
+    margin: 70px 0 224px 0;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-link{
+    cursor: pointer;
+    color:inherit;
+}
+.social-link-container{
+    width:176px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-link svg{
+    fill: #707070;
+    transition: all 0.2s;
+}
+.social-link a{
+    border-bottom: none;
+}
+.social-link svg:hover{
+    cursor: pointer;
+    fill: white;
+}
