@@ -7,17 +7,30 @@ import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
 
 const PlanMenu = () => {
+  // const [headers, setHeaders] = useState();
+
+  useEffect(() => {
+    const documentHeaders = document.querySelectorAll('.plan-text-header');
+    console.log(documentHeaders);
+    documentHeaders.forEach(header => {
+      console.log(header.getBoundingClientRect());
+    })
+    // if(documentHeaders){
+    //   setHeaders(documentHeaders.map(header => header.textContent))
+    // }
+  }, [])
+
   return (
     <div className="plan-menu-container">
       <div className="plan-menu">
-        <div className="plan-menu-item selected-menu-item">
-          1. Hvað er planið?
-        </div>
-        <div className="plan-menu-item">2. Vandamálið</div>
-        <div className="plan-menu-item">3. Þriðji kafli</div>
-        <div className="plan-menu-item">4. Meira af texta</div>
-        <div className="plan-menu-item">5. Hann heldur áfram</div>
-      </div>
+        {/*{headers && headers?.map((header, index) => (*/}
+        {/*  <div className="plan-menu-item selected-menu-item">*/}
+        {/*    {index + 1}. {header}*/}
+        {/*  </div>*/}
+        {/*  )*/}
+        {/*)*/}
+        {/*}*/}
+    </div>
     </div>
   )
 }
