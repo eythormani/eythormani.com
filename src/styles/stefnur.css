@@ -1,0 +1,57 @@
+.tileContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    box-sizing: border-box;
+}
+
+.tile{
+    width: 600px;
+    height: 640px;
+    margin: 12px;
+    padding: 56px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    border: none !important;
+}
+.tile:hover .tileTitle{
+    border-bottom-color: #ffcc1a;
+}
+
+.tileTitle{
+    filter: none;
+    font-size: 72px;
+    line-height: 80px;
+    font-family: "Cheltenham Std Bold Cond It", serif;
+    text-shadow: 0 0 41px #000000;
+    color: #fff;
+
+    transition: all 300ms;
+    border-bottom: 3px solid #ffcc1a00;
+}
+.tileImageContainer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.tileImageContainer img{
+    filter: grayscale(100%);
+    opacity: 30%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+}
+.tile:hover .tileImageContainer img{
+    opacity: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%);
+}

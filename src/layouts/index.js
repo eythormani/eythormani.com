@@ -5,7 +5,6 @@ export default ({ children }) => {
   return (
     <>
       <Header siteTitle="Eyþór Máni"/>
-
       {children}
       <footer
         style={{
