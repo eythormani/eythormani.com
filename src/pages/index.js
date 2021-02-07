@@ -4,6 +4,8 @@ import FrontImageSell from "../components/frontImageSell"
 
 import "../styles/index.css"
 
+import headshot from "../images/e1c.png"
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -11,41 +13,51 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ marginBottom: 160 }}>
+    <div className="header-container" style={{ marginBottom: 160 }}>
       <div className="yellow-header">Velkomin!</div>
       <div className="big-header" style={{ marginTop: 40 }}>
-        Lorem ipsum
+        Geggjuð og grípandi setning sem vekur athygli og áhuga
+      </div>
+      <div className="headshot">
+        <img height="500px" src={headshot}></img>
       </div>
     </div>
+    <div className="spacer"></div>
     <FrontImageSell
-      image="https://m2.mbl.is/tSsZDiE-FdO_KxBXrtg7nrE-O_w=/1640x1093/smart/frimg/1/25/47/1254796.jpg"
-      bigTitle="Aðgengi að fjarnámi er jafnréttismál"
-      smallTitle="Sterkari samfélög"
+      image="https://images.unsplash.com/photo-1568792358202-0b9a9071b357?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+      bigTitle="Sköpunarsmiðjur í öllum menntastofnunum"
+      smallTitle="Framúrskarandi menntun"
       imgSide="left"
       className="front-image"
       readMoreLink="/stefnur/sterkari-samfelog/adgengilegt-fjarnam"
       policyLink="/stefnur/sterkari-samfelog"
     />
     <FrontImageSell
-      image="https://cdn.mbl.is/frimg/1/25/47/1254728.jpg"
-      bigTitle="Eflum nýsköpun í landbúnaði"
+      image="https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80"
+      bigTitle="Búvörusamningar fyrir grænar afurðir"
       smallTitle="Sjálfbær landbúnaður"
       imgSide="right"
       className="front-image"
+      readMoreLink="/stefnur/sterkari-samfelog/adgengilegt-fjarnam"
+      policyLink="/stefnur/sterkari-samfelog"
     />
     <FrontImageSell
-      image="https://m2.mbl.is/tSsZDiE-FdO_KxBXrtg7nrE-O_w=/1640x1093/smart/frimg/1/25/47/1254796.jpg"
-      bigTitle="Sköpunarrými í öllum skólum"
-      smallTitle="Aðgengileg nýsköpun fyrir framtíðina"
+      image="https://maelabord.reykjavik.is/extensions/MaelabordBorgarbua/UmhverfiogSamgongur.jpg"
+      bigTitle="Endurgjaldslausar samgöngur fyrir nema"
+      smallTitle="Framúrskarandi menntun"
       imgSide="left"
       className="front-image"
+      readMoreLink="/stefnur/sterkari-samfelog/adgengilegt-fjarnam"
+      policyLink="/stefnur/sterkari-samfelog"
     />
     <FrontImageSell
-      image="https://cdn.mbl.is/frimg/1/25/47/1254728.jpg"
+      image="https://images.pexels.com/photos/4101137/pexels-photo-4101137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       bigTitle="Sálfræðiþjónusta í gegnum fjarfundarbúnað"
       smallTitle="Sterkari samfélög"
       imgSide="right"
       className="front-image"
+      readMoreLink="/stefnur/sterkari-samfelog/adgengilegt-fjarnam"
+      policyLink="/stefnur/sterkari-samfelog"
     />
   </Layout>
 )

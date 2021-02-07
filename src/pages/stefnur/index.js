@@ -55,7 +55,7 @@ const PlanPage = () => (
       />
       <Tile
         title="Komum ungu fólki til áhrifa"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image="https://frettabladid.overcastcdn.com/images/230603.2e16d0ba.fill-988x570-c100.jpg"
         to="/stefnur/ungt-folk"
       />
       <Tile
@@ -65,7 +65,7 @@ const PlanPage = () => (
       />
       <Tile
         title="Lýðræði í verki"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image="https://m2.mbl.is/gm-z33LuzydQ82LLp-z53w27_lw=/1640x1093/smart/frimg/4/96/496735.jpg"
         to="/stefnur/lydraedi"
       />
       <Tile

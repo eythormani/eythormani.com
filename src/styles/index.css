@@ -1,0 +1,12 @@
+.big-header{
+	width:700px;
+}
+.header-container{
+	position: relative;
+	margin-bottom: 300px;
+}
+.headshot{
+	position: absolute;
+	top:0px;
+	right:40px;
+}

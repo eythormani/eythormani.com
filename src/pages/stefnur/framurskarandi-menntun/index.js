@@ -30,34 +30,52 @@ const PlanPage = () => (
     </div>
     <div className="tileContainer">
       <Tile
-        title="Margrét Einarsdóttir"
-        image="https://pbs.twimg.com/profile_images/917390241228615681/ZsZCUSE9.jpg"
+        title="Endurgjaldlausar samgöngur fyrir nema"
+        image="https://maelabord.reykjavik.is/extensions/MaelabordBorgarbua/UmhverfiogSamgongur.jpg"
         to="plan"
         fullWidth
       />
       <Tile
-        title="Aðgengileg nýsköpun fyrir framtíðina"
-        image="https://www.visir.is/i/D5CC38AF5F127CF8323E8457B14CD2ED13856F354E743AB541041806ABBA8236_713x0.jpg"
+        title="Gróðurhús í grunn- og leikskóla"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="https://www.dv.is/wp-content/uploads/2018/04/Spurning3-1-324x350.png"
-        to="/stefna1"
+        title="Fjölbreyttara val í grunn- og framhalsskólum"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="https://www.ruv.is/sites/default/files/fr_20190911_120409.jpg"
-        to="/stefna1"
+        title="Aðgengi að fjarnámi er jafnréttismál"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="http://www.vb.is/media/cache/52/6f/526f3f76e573f6aeb3e8102583ca191e.jpg"
-        to="/stefna1"
+        title="Kennum krökkum kynfræðslu"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
       />
       <Tile
-        title="Framúrskarandi menntun"
-        image="https://pbs.twimg.com/profile_images/1182999037550698501/cTSxSB60_400x400.jpg"
-        to="/stefna1"
+        title="Endurhugsum samfélagsfræði og lífsleikni"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Forritun fyrir alla"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Lýðræðislegt endurmat á kennsluskránni"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
       />
     </div>
   </Layout>

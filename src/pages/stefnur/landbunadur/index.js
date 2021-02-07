@@ -16,7 +16,7 @@ const PlanPage = () => (
       </div>
       <div className="plan-header-container" style={{ marginTop: 40 }}>
         <div className="plan-header">
-          Landbúnaður sem virkar fyrir bændur
+          Landbúnaður sem virkar fyrir okkur öll
         </div>
         <div className="plan-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius

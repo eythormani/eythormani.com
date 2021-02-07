@@ -16,7 +16,7 @@ const PlanPage = () => (
       </div>
       <div className="plan-header-container" style={{ marginTop: 40 }}>
         <div className="plan-header">
-          Jafnt aðgengi um allt land
+          Jörðin okkar er að deyja
         </div>
         <div className="plan-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius
