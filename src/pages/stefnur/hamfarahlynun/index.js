@@ -16,7 +16,7 @@ const PlanPage = () => (
       </div>
       <div className="plan-header-container" style={{ marginTop: 40 }}>
         <div className="plan-header">
-          Jörðin okkar er að deyja
+          Umhverfið í fyrsta sæti
         </div>
         <div className="plan-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius
@@ -30,24 +30,47 @@ const PlanPage = () => (
     </div>
     <div className="tileContainer">
       <Tile
-        title="Sálfræðiþjónusta í gegnum fjarfundarbúnað"
-        image="https://images.pexels.com/photos/4101137/pexels-photo-4101137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Munasöfn í alla byggðarkjarna"
+        image="https://s3-eu-west-1.amazonaws.com/kfunddynamic/project_content_pics/2452/medium/c8feb8e83710403f288b584c2b0f1c59.jpg"
         to="salfraedithjonusta"
         fullWidth
       />
       <Tile
-        title="Aðgengi að fjarnámi er jafnréttismál"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Stór fyrirtæki þurfa að skila kolefnisbókhaldi"
+        image="https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         to="plan"
         fullWidth
       />
       <Tile
-        title="Virðisaukann til sveitarfélaganna"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Grænkerafæði í öllum ríkisreknum mötuneytum"
+        image="https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         to="plan"
         fullWidth
       />
-      
+      <Tile
+        title="Áróður fyrir loftslagið"
+        image="https://images.pexels.com/photos/2561628/pexels-photo-2561628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Takmörkum sölu á flugeldum"
+        image="https://images.pexels.com/photos/1573724/pexels-photo-1573724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Hættum að selja vatn í flöskum"
+        image="https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Verslanir ættu ekki að mega henda mat"
+        image="https://allthatsinteresting.com/wordpress/wp-content/uploads/2015/11/food-waste-oranges-dumpster.jpg"
+        to="plan"
+        fullWidth
+      />
     </div>
   </Layout>
 )

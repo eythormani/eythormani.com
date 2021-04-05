@@ -30,24 +30,11 @@ const PlanPage = () => (
     </div>
     <div className="tileContainer">
       <Tile
-        title="Sálfræðiþjónusta í gegnum fjarfundarbúnað"
+        title="Lækkum kosningaaldurinn í 16 ára"
         image="https://images.pexels.com/photos/4101137/pexels-photo-4101137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         to="salfraedithjonusta"
         fullWidth
-      />
-      <Tile
-        title="Aðgengi að fjarnámi er jafnréttismál"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        to="plan"
-        fullWidth
-      />
-      <Tile
-        title="Virðisaukann til sveitarfélaganna"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        to="plan"
-        fullWidth
-      />
-      
+      />      
     </div>
   </Layout>
 )

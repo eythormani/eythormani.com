@@ -30,11 +30,11 @@ const PlanPage = () => {
         <div style={{ marginBottom: 160 }}>
           <div className="yellow-header-container">
             <div className="yellow-header">Framúrskarandi menntun</div>
-            <div className="reading-length">4 mín</div>
+            <div className="reading-length">X mín</div>
           </div>
           <div className="plan-header-container" style={{ marginTop: 40 }}>
             <div className="plan-header">
-              Fjölbreyttara val í grunn- og framhaldsskólum
+              Endurgjaldslausar samgöngur fyrir nema
             </div>
             <div className="plan-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius

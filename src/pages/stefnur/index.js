@@ -38,11 +38,13 @@ const PlanPage = () => (
         image={innovationImage}
         to="/stefnur/nyskopun"
       />
+
       <Tile
         title="Landbúnaður sem virkar fyrir bændur"
         image="https://images.pexels.com/photos/2659484/pexels-photo-2659484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         to="/stefnur/landbunadur"
       />
+
       <Tile
         title="Jafnt aðgengi um allt land"
         image="https://images.pexels.com/photos/318427/pexels-photo-318427.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
@@ -54,15 +56,16 @@ const PlanPage = () => (
         to="/stefnur/framurskarandi-menntun"
       />
       <Tile
+        title="Umhverfið í fyrsta sæti"
+        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        to="/stefnur/hamfarahlynun"
+      />
+      <Tile
         title="Komum ungu fólki til áhrifa"
         image="https://frettabladid.overcastcdn.com/images/230603.2e16d0ba.fill-988x570-c100.jpg"
         to="/stefnur/ungt-folk"
       />
-      <Tile
-        title="Jörðin okkar er að deyja"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        to="/stefnur/hamfarahlynun"
-      />
+      
       <Tile
         title="Lýðræði í verki"
         image="https://m2.mbl.is/gm-z33LuzydQ82LLp-z53w27_lw=/1640x1093/smart/frimg/4/96/496735.jpg"

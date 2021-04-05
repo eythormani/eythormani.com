@@ -34,7 +34,7 @@ const PlanPage = () => {
           </div>
           <div className="plan-header-container" style={{ marginTop: 40 }}>
             <div className="plan-header">
-              Fjölbreyttara val í grunn- og framhaldsskólum
+              Endurhugsum samfélagsfræði og lífsleikni
             </div>
             <div className="plan-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius

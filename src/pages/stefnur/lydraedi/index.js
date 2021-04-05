@@ -30,20 +30,32 @@ const PlanPage = () => (
     </div>
     <div className="tileContainer">
       <Tile
-        title="Sálfræðiþjónusta í gegnum fjarfundarbúnað"
-        image="https://images.pexels.com/photos/4101137/pexels-photo-4101137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Tveggja kjörtímabila hámark á þingsetu"
+        image="https://www.visindavefur.is/myndir/althingi_thingsalur_stor_260117.jpg"
         to="salfraedithjonusta"
         fullWidth
       />
       <Tile
-        title="Aðgengi að fjarnámi er jafnréttismál"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Aðskilnaður framkvæmdar- og löggjafarvalds"
+        image="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
         to="plan"
         fullWidth
       />
       <Tile
-        title="Virðisaukann til sveitarfélaganna"
-        image="https://images.pexels.com/photos/1660990/pexels-photo-1660990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        title="Lýðræðivæðum stjórnir stórra fyrirtækja"
+        image="https://nfc-forum.org/wp-content/uploads/2019/08/1.jpg"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Þjóðaratkvæðagreiðslur ættu að vera bindandi"
+        image="https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+        to="plan"
+        fullWidth
+      />
+      <Tile
+        title="Atkvæði ættu að vera jöfn um allt land"
+        image="https://eoimages.gsfc.nasa.gov/images/imagerecords/62000/62109/Iceland.A2002252.1310.500m.jpg"
         to="plan"
         fullWidth
       />
